@@ -14,10 +14,17 @@ The papers consulted are in this folder. The type of control laws used includes:
 The folder contains the source code of a client socket. Since the Motive OptiTrack software is only available for Windows and ROS is only available for Linux, the data is sent via socket using TCP/IP. 
 If you are interested in the source code for the server socket, visit my [optitrack_server](https://github.com/Misantonio/optitrack_server) repository. 
 
+To run the client socket type
+```
+  roscore&
+  rosrun ardrone_cinvestav publisherOpti
+```
+
 ## src folder
 This folder contains the source code. 
 ### lib folder
 Contains third party Python modules.
+
 **IMPORTANT:** In the constructor method of the `BasicDroneController` class in the `drone_controller.py` file, there is a modification that has to be done depending if the test to be done is a simulation or real one. 
 The file contains the next lines of code.
 ```
