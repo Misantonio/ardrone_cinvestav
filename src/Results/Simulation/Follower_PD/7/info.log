@@ -1,0 +1,381 @@
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:23:34,098] --> ####################################################################################################
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:23:34,290] --> Rospy node created
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:23:34,936] --> Simulation: 7, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:23:34,937] --> Gains: (6, 4, 8, 10, 7, 2), Trajectory: (0.5, 2.0, 0.5, 2.0, 0.2, 30.0, 1.0, 0.0)
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:23:34,943] --> Center (0.0, 0.0, 0.8)
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:23:34,956] --> Taking Off
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:23:37,760] --> Qt GUI created
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:37,933] --> Follower control law function taking more time than control period: 8.08715820312 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,206] --> Follower control law function taking more time than control period: 13.0729675293 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,294] --> Follower control law function taking more time than control period: 5.74707984924 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,337] --> Follower control law function taking more time than control period: 6.50382041931 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,431] --> Control law function taking more time than control period: 7.91096687317 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,605] --> Follower control law function taking more time than control period: 5.70702552795 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,877] --> Control law function taking more time than control period: 5.39994239807 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,883] --> Follower control law function taking more time than control period: 6.38508796692 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,902] --> Follower control law function taking more time than control period: 8.09788703918 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,951] --> Follower control law function taking more time than control period: 6.74700737 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,953] --> Control law function taking more time than control period: 7.73692131042 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:38,992] --> Follower control law function taking more time than control period: 12.2170448303 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:39,012] --> Follower control law function taking more time than control period: 7.37309455872 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:39,478] --> Follower control law function taking more time than control period: 6.2198638916 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:39,540] --> Follower control law function taking more time than control period: 7.69519805908 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:39,768] --> Follower control law function taking more time than control period: 6.64401054382 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:39,833] --> Control law function taking more time than control period: 5.90491294861 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:40,502] --> Follower control law function taking more time than control period: 7.88497924805 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:40,543] --> Follower control law function taking more time than control period: 6.66284561157 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:40,562] --> Follower control law function taking more time than control period: 6.07705116272 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:40,638] --> Follower control law function taking more time than control period: 7.91788101196 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:40,655] --> Follower control law function taking more time than control period: 5.14197349548 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,036] --> Follower control law function taking more time than control period: 8.20016860962 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,114] --> Control law function taking more time than control period: 5.47194480896 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,419] --> Control law function taking more time than control period: 5.9289932251 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,428] --> Follower control law function taking more time than control period: 21.6159820557 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,438] --> Control law function taking more time than control period: 5.33699989319 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,443] --> Follower control law function taking more time than control period: 14.8870944977 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,471] --> Follower control law function taking more time than control period: 16.3171291351 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,482] --> Follower control law function taking more time than control period: 9.9720954895 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,510] --> Control law function taking more time than control period: 5.704164505 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,517] --> Follower control law function taking more time than control period: 29.0729999542 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,530] --> Follower control law function taking more time than control period: 9.202003479 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,540] --> Control law function taking more time than control period: 6.69693946838 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:41,542] --> Follower control law function taking more time than control period: 11.6701126099 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,006] --> Control law function taking more time than control period: 9.74798202515 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,007] --> Follower control law function taking more time than control period: 10.2660655975 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,187] --> Follower control law function taking more time than control period: 5.17582893372 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,299] --> Follower control law function taking more time than control period: 5.51295280457 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,802] --> Follower control law function taking more time than control period: 5.26595115662 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,916] --> Follower control law function taking more time than control period: 10.4568004608 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,952] --> Follower control law function taking more time than control period: 6.71887397766 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:42,999] --> Follower control law function taking more time than control period: 13.6470794678 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:43,039] --> Follower control law function taking more time than control period: 8.92806053162 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:43,252] --> Follower control law function taking more time than control period: 7.33113288879 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:43,441] --> Follower control law function taking more time than control period: 7.5421333313 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:43,464] --> Follower control law function taking more time than control period: 11.4419460297 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:43,698] --> Control law function taking more time than control period: 8.40091705322 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:43,917] --> Control law function taking more time than control period: 7.52997398376 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,011] --> Follower control law function taking more time than control period: 6.34407997131 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,051] --> Follower control law function taking more time than control period: 6.73890113831 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,182] --> Follower control law function taking more time than control period: 10.1308822632 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,193] --> Follower control law function taking more time than control period: 8.41784477234 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,197] --> Control law function taking more time than control period: 5.87201118469 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,214] --> Follower control law function taking more time than control period: 11.3890171051 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,224] --> Follower control law function taking more time than control period: 6.08706474304 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,249] --> Follower control law function taking more time than control period: 10.3368759155 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,321] --> Follower control law function taking more time than control period: 5.45120239258 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,371] --> Follower control law function taking more time than control period: 10.1850032806 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,392] --> Follower control law function taking more time than control period: 13.2899284363 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,421] --> Follower control law function taking more time than control period: 13.7829780579 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,429] --> Follower control law function taking more time than control period: 6.77704811096 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,492] --> Follower control law function taking more time than control period: 10.3421211243 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,631] --> Follower control law function taking more time than control period: 5.43618202209 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,736] --> Follower control law function taking more time than control period: 5.45191764832 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,761] --> Follower control law function taking more time than control period: 12.8710269928 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,776] --> Follower control law function taking more time than control period: 5.95998764038 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,805] --> Control law function taking more time than control period: 6.02889060974 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:44,808] --> Follower control law function taking more time than control period: 18.2068347931 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,090] --> Follower control law function taking more time than control period: 6.05297088623 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,152] --> Follower control law function taking more time than control period: 5.83696365356 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,203] --> Control law function taking more time than control period: 5.07616996765 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,327] --> Control law function taking more time than control period: 11.6879940033 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,336] --> Follower control law function taking more time than control period: 27.7020931244 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,361] --> Follower control law function taking more time than control period: 17.9769992828 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,385] --> Follower control law function taking more time than control period: 6.1948299408 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,404] --> Control law function taking more time than control period: 6.65998458862 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,420] --> Control law function taking more time than control period: 5.10001182556 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,436] --> Follower control law function taking more time than control period: 40.253162384 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,455] --> Follower control law function taking more time than control period: 8.20994377136 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,464] --> Control law function taking more time than control period: 5.21516799927 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,477] --> Follower control law function taking more time than control period: 7.56406784058 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,489] --> Follower control law function taking more time than control period: 12.1669769287 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,500] --> Follower control law function taking more time than control period: 7.9071521759 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,511] --> Control law function taking more time than control period: 5.32698631287 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,520] --> Follower control law function taking more time than control period: 7.92503356934 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,530] --> Follower control law function taking more time than control period: 8.46099853516 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,600] --> Follower control law function taking more time than control period: 6.97708129883 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,830] --> Follower control law function taking more time than control period: 9.77301597595 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,857] --> Control law function taking more time than control period: 15.6629085541 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,905] --> Control law function taking more time than control period: 5.48410415649 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,905] --> Follower control law function taking more time than control period: 8.83603096008 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,971] --> Follower control law function taking more time than control period: 8.83507728577 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:45,987] --> Follower control law function taking more time than control period: 13.6871337891 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,005] --> Follower control law function taking more time than control period: 9.78517532349 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,034] --> Control law function taking more time than control period: 5.52010536194 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,080] --> Follower control law function taking more time than control period: 5.08308410645 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,259] --> Follower control law function taking more time than control period: 5.73897361755 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,292] --> Follower control law function taking more time than control period: 5.19490242004 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,798] --> Control law function taking more time than control period: 5.81216812134 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,835] --> Follower control law function taking more time than control period: 10.8890533447 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,876] --> Follower control law function taking more time than control period: 11.589050293 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:46,960] --> Control law function taking more time than control period: 6.00695610046 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,006] --> Follower control law function taking more time than control period: 13.6029720306 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,014] --> Follower control law function taking more time than control period: 7.64012336731 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,072] --> Follower control law function taking more time than control period: 6.33311271667 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,095] --> Follower control law function taking more time than control period: 5.33294677734 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,190] --> Follower control law function taking more time than control period: 21.9519138336 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,222] --> Control law function taking more time than control period: 5.05900382996 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,536] --> Follower control law function taking more time than control period: 10.5919837952 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,580] --> Control law function taking more time than control period: 5.97906112671 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,596] --> Follower control law function taking more time than control period: 11.0638141632 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,623] --> Follower control law function taking more time than control period: 17.4670219421 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,638] --> Follower control law function taking more time than control period: 10.575056076 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,671] --> Follower control law function taking more time than control period: 22.0060348511 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,677] --> Control law function taking more time than control period: 6.55317306519 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,682] --> Follower control law function taking more time than control period: 9.57012176514 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:47,834] --> Follower control law function taking more time than control period: 13.5128498077 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:48,019] --> Control law function taking more time than control period: 5.46717643738 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:48,276] --> Follower control law function taking more time than control period: 7.36594200134 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:48,326] --> Follower control law function taking more time than control period: 5.77902793884 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:48,372] --> Follower control law function taking more time than control period: 12.8378868103 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:48,416] --> Follower control law function taking more time than control period: 16.2560939789 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:48,460] --> Follower control law function taking more time than control period: 10.5690956116 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:48,714] --> Control law function taking more time than control period: 6.26993179321 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,027] --> Follower control law function taking more time than control period: 6.86597824097 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,155] --> Follower control law function taking more time than control period: 5.67412376404 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,199] --> Follower control law function taking more time than control period: 6.66809082031 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,263] --> Follower control law function taking more time than control period: 5.01203536987 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,313] --> Follower control law function taking more time than control period: 26.7870426178 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,321] --> Follower control law function taking more time than control period: 7.37619400024 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,330] --> Follower control law function taking more time than control period: 5.00297546387 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,715] --> Follower control law function taking more time than control period: 5.43808937073 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:49,768] --> Control law function taking more time than control period: 6.01196289062 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,043] --> Follower control law function taking more time than control period: 6.39009475708 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,094] --> Control law function taking more time than control period: 5.10501861572 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,179] --> Follower control law function taking more time than control period: 12.8901004791 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,215] --> Follower control law function taking more time than control period: 5.85913658142 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,229] --> Control law function taking more time than control period: 6.58416748047 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,655] --> Follower control law function taking more time than control period: 14.3761634827 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,711] --> Follower control law function taking more time than control period: 5.87391853333 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,874] --> Follower control law function taking more time than control period: 5.71918487549 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,912] --> Control law function taking more time than control period: 7.54690170288 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:50,964] --> Follower control law function taking more time than control period: 5.94615936279 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:51,100] --> Follower control law function taking more time than control period: 11.2538337708 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:51,219] --> Follower control law function taking more time than control period: 7.73811340332 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:51,234] --> Control law function taking more time than control period: 6.55508041382 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:51,549] --> Follower control law function taking more time than control period: 10.8850002289 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:51,853] --> Follower control law function taking more time than control period: 12.0751857758 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:51,893] --> Follower control law function taking more time than control period: 5.60212135315 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:51,972] --> Follower control law function taking more time than control period: 6.33001327515 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:52,079] --> Follower control law function taking more time than control period: 5.65600395203 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:52,147] --> Follower control law function taking more time than control period: 7.24792480469 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:52,414] --> Control law function taking more time than control period: 6.15406036377 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:52,656] --> Follower control law function taking more time than control period: 5.85699081421 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:52,725] --> Follower control law function taking more time than control period: 7.0641040802 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:52,898] --> Control law function taking more time than control period: 5.19418716431 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,460] --> Control law function taking more time than control period: 5.04994392395 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,486] --> Control law function taking more time than control period: 8.76498222351 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,505] --> Follower control law function taking more time than control period: 5.48815727234 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,607] --> Follower control law function taking more time than control period: 9.69004631042 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,703] --> Control law function taking more time than control period: 6.67786598206 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,710] --> Follower control law function taking more time than control period: 23.1919288635 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,717] --> Follower control law function taking more time than control period: 5.61594963074 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,966] --> Follower control law function taking more time than control period: 9.62781906128 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:53,980] --> Follower control law function taking more time than control period: 8.40711593628 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,006] --> Follower control law function taking more time than control period: 19.3848609924 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,052] --> Control law function taking more time than control period: 10.2431774139 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,065] --> Follower control law function taking more time than control period: 11.1079216003 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,072] --> Follower control law function taking more time than control period: 5.00798225403 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,139] --> Control law function taking more time than control period: 11.5249156952 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,147] --> Follower control law function taking more time than control period: 5.65814971924 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,151] --> Control law function taking more time than control period: 10.4849338531 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,159] --> Follower control law function taking more time than control period: 5.60712814331 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,179] --> Control law function taking more time than control period: 21.8989849091 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,202] --> Follower control law function taking more time than control period: 20.3778743744 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,223] --> Control law function taking more time than control period: 29.7391414642 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,225] --> Follower control law function taking more time than control period: 20.5550193787 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,238] --> Control law function taking more time than control period: 10.0169181824 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,245] --> Follower control law function taking more time than control period: 9.22298431396 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,259] --> Control law function taking more time than control period: 16.7078971863 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,262] --> Follower control law function taking more time than control period: 16.5708065033 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,285] --> Control law function taking more time than control period: 9.49501991272 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,317] --> Control law function taking more time than control period: 7.50684738159 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,331] --> Control law function taking more time than control period: 5.67007064819 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,362] --> Control law function taking more time than control period: 10.330915451 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,372] --> Control law function taking more time than control period: 6.80494308472 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,381] --> Follower control law function taking more time than control period: 6.01005554199 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,578] --> Follower control law function taking more time than control period: 10.0498199463 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,636] --> Follower control law function taking more time than control period: 5.46097755432 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,795] --> Control law function taking more time than control period: 16.3900852203 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,829] --> Control law function taking more time than control period: 8.04495811462 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,884] --> Follower control law function taking more time than control period: 9.31000709534 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,930] --> Follower control law function taking more time than control period: 5.29408454895 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:54,971] --> Follower control law function taking more time than control period: 10.2081298828 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,016] --> Follower control law function taking more time than control period: 18.9938545227 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,050] --> Follower control law function taking more time than control period: 9.65404510498 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,194] --> Control law function taking more time than control period: 5.65600395203 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,234] --> Control law function taking more time than control period: 8.31198692322 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,376] --> Follower control law function taking more time than control period: 18.846988678 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,390] --> Follower control law function taking more time than control period: 6.50000572205 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,415] --> Follower control law function taking more time than control period: 5.27811050415 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,444] --> Control law function taking more time than control period: 9.1438293457 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,463] --> Control law function taking more time than control period: 6.72292709351 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,467] --> Follower control law function taking more time than control period: 10.0629329681 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,545] --> Follower control law function taking more time than control period: 6.13498687744 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,574] --> Control law function taking more time than control period: 7.72595405579 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,635] --> Follower control law function taking more time than control period: 6.11805915833 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,708] --> Follower control law function taking more time than control period: 14.6059989929 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,732] --> Follower control law function taking more time than control period: 19.119977951 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,743] --> Follower control law function taking more time than control period: 6.91390037537 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,746] --> Control law function taking more time than control period: 6.98494911194 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,753] --> Follower control law function taking more time than control period: 8.54516029358 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,896] --> Follower control law function taking more time than control period: 10.9717845917 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:55,978] --> Follower control law function taking more time than control period: 7.49015808105 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,020] --> Follower control law function taking more time than control period: 6.61706924438 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,065] --> Follower control law function taking more time than control period: 7.35902786255 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,113] --> Follower control law function taking more time than control period: 12.640953064 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,156] --> Follower control law function taking more time than control period: 13.2229328156 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,201] --> Follower control law function taking more time than control period: 14.9049758911 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,250] --> Follower control law function taking more time than control period: 20.8811759949 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,264] --> Follower control law function taking more time than control period: 8.85510444641 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,465] --> Follower control law function taking more time than control period: 13.6950016022 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,508] --> Follower control law function taking more time than control period: 14.4031047821 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,596] --> Follower control law function taking more time than control period: 15.0539875031 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,727] --> Follower control law function taking more time than control period: 11.6729736328 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,772] --> Follower control law function taking more time than control period: 6.99591636658 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,822] --> Follower control law function taking more time than control period: 19.3908214569 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,839] --> Control law function taking more time than control period: 5.54394721985 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,864] --> Follower control law function taking more time than control period: 9.40799713135 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,911] --> Follower control law function taking more time than control period: 10.7848644257 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:56,947] --> Follower control law function taking more time than control period: 9.90891456604 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,036] --> Follower control law function taking more time than control period: 14.1088962555 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,080] --> Follower control law function taking more time than control period: 12.7289295197 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,162] --> Follower control law function taking more time than control period: 7.17306137085 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,210] --> Follower control law function taking more time than control period: 10.3759765625 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,253] --> Follower control law function taking more time than control period: 8.01491737366 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,804] --> Control law function taking more time than control period: 7.493019104 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,875] --> Follower control law function taking more time than control period: 6.58106803894 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,922] --> Follower control law function taking more time than control period: 10.6911659241 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,966] --> Control law function taking more time than control period: 5.40494918823 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:57,997] --> Follower control law function taking more time than control period: 8.93497467041 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,097] --> Control law function taking more time than control period: 15.2928829193 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,112] --> Control law function taking more time than control period: 8.41999053955 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,113] --> Follower control law function taking more time than control period: 20.1060771942 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,137] --> Follower control law function taking more time than control period: 18.3370113373 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,144] --> Control law function taking more time than control period: 19.0320014954 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,162] --> Follower control law function taking more time than control period: 10.8971595764 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,181] --> Follower control law function taking more time than control period: 18.2149410248 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,197] --> Follower control law function taking more time than control period: 7.27200508118 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,214] --> Follower control law function taking more time than control period: 11.9688510895 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,236] --> Follower control law function taking more time than control period: 6.70289993286 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,252] --> Follower control law function taking more time than control period: 7.52687454224 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,317] --> Follower control law function taking more time than control period: 15.2099132538 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,401] --> Follower control law function taking more time than control period: 15.9840583801 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,534] --> Control law function taking more time than control period: 8.60786437988 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,573] --> Control law function taking more time than control period: 10.9310150146 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,621] --> Follower control law function taking more time than control period: 6.40392303467 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,713] --> Follower control law function taking more time than control period: 8.44097137451 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,757] --> Follower control law function taking more time than control period: 5.04517555237 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,791] --> Follower control law function taking more time than control period: 5.92708587646 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,892] --> Follower control law function taking more time than control period: 9.69099998474 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,899] --> Control law function taking more time than control period: 6.17718696594 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,906] --> Control law function taking more time than control period: 5.44190406799 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,921] --> Follower control law function taking more time than control period: 13.7410163879 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,930] --> Control law function taking more time than control period: 5.00702857971 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:58,936] --> Follower control law function taking more time than control period: 6.03103637695 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,015] --> Control law function taking more time than control period: 7.23195075989 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,038] --> Follower control law function taking more time than control period: 16.0460472107 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,379] --> Follower control law function taking more time than control period: 13.9529705048 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,471] --> Follower control law function taking more time than control period: 13.2169723511 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,595] --> Follower control law function taking more time than control period: 8.06307792664 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,676] --> Follower control law function taking more time than control period: 16.5729522705 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,729] --> Follower control law function taking more time than control period: 16.6959762573 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,769] --> Follower control law function taking more time than control period: 23.4868526459 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,791] --> Follower control law function taking more time than control period: 5.01298904419 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,819] --> Follower control law function taking more time than control period: 9.53912734985 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,900] --> Follower control law function taking more time than control period: 7.94887542725 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,970] --> Follower control law function taking more time than control period: 9.34386253357 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:23:59,984] --> Follower control law function taking more time than control period: 5.60402870178 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,231] --> Follower control law function taking more time than control period: 5.73110580444 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,300] --> Follower control law function taking more time than control period: 7.36999511719 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,315] --> Follower control law function taking more time than control period: 5.3870677948 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,508] --> Follower control law function taking more time than control period: 6.91914558411 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,559] --> Follower control law function taking more time than control period: 15.7668590546 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,608] --> Follower control law function taking more time than control period: 22.7348804474 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,619] --> Follower control law function taking more time than control period: 9.06586647034 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,646] --> Control law function taking more time than control period: 6.43992424011 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,661] --> Follower control law function taking more time than control period: 10.241985321 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,732] --> Control law function taking more time than control period: 6.2141418457 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,734] --> Follower control law function taking more time than control period: 13.0820274353 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:00,866] --> Control law function taking more time than control period: 7.07221031189 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,560] --> Follower control law function taking more time than control period: 7.35306739807 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,603] --> Follower control law function taking more time than control period: 6.13498687744 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,649] --> Follower control law function taking more time than control period: 8.5608959198 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,656] --> Control law function taking more time than control period: 5.15794754028 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,736] --> Follower control law function taking more time than control period: 7.96103477478 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,782] --> Follower control law function taking more time than control period: 8.36396217346 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,870] --> Follower control law function taking more time than control period: 6.92105293274 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:01,964] --> Follower control law function taking more time than control period: 14.2548084259 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:02,050] --> Follower control law function taking more time than control period: 13.5691165924 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:02,090] --> Follower control law function taking more time than control period: 8.63790512085 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:02,185] --> Follower control law function taking more time than control period: 7.73000717163 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:02,220] --> Follower control law function taking more time than control period: 7.61413574219 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:02,531] --> Follower control law function taking more time than control period: 7.74908065796 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:02,675] --> Follower control law function taking more time than control period: 12.5548839569 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:02,791] --> Control law function taking more time than control period: 6.75892829895 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,198] --> Follower control law function taking more time than control period: 8.77690315247 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,241] --> Follower control law function taking more time than control period: 7.85899162292 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,256] --> Follower control law function taking more time than control period: 6.26301765442 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,369] --> Follower control law function taking more time than control period: 11.0998153687 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,495] --> Follower control law function taking more time than control period: 6.85000419617 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,506] --> Control law function taking more time than control period: 5.75494766235 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,584] --> Follower control law function taking more time than control period: 7.21907615662 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,636] --> Follower control law function taking more time than control period: 16.0398483276 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,768] --> Follower control law function taking more time than control period: 8.03685188293 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,854] --> Follower control law function taking more time than control period: 10.0522041321 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:03,904] --> Follower control law function taking more time than control period: 11.4088058472 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:04,426] --> Control law function taking more time than control period: 5.84387779236 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:04,471] --> Control law function taking more time than control period: 5.04422187805 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:04,508] --> Follower control law function taking more time than control period: 7.64608383179 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:04,552] --> Follower control law function taking more time than control period: 6.52408599854 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:04,664] --> Follower control law function taking more time than control period: 8.55183601379 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:04,686] --> Follower control law function taking more time than control period: 9.72294807434 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:04,732] --> Follower control law function taking more time than control period: 9.8180770874 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,177] --> Control law function taking more time than control period: 7.26389884949 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,178] --> Follower control law function taking more time than control period: 15.0339603424 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,186] --> Follower control law function taking more time than control period: 5.09881973267 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,191] --> Follower control law function taking more time than control period: 5.28216362 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,191] --> Control law function taking more time than control period: 7.59792327881 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,201] --> Follower control law function taking more time than control period: 7.13706016541 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,246] --> Control law function taking more time than control period: 7.33208656311 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,278] --> Follower control law function taking more time than control period: 11.146068573 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,292] --> Follower control law function taking more time than control period: 5.41496276855 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,289] --> Control law function taking more time than control period: 9.10091400146 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,326] --> Follower control law function taking more time than control period: 6.92796707153 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,341] --> Follower control law function taking more time than control period: 5.90419769287 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,374] --> Control law function taking more time than control period: 5.71203231812 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,384] --> Follower control law function taking more time than control period: 5.34892082214 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,443] --> Control law function taking more time than control period: 6.72316551208 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,517] --> Follower control law function taking more time than control period: 5.82313537598 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,530] --> Control law function taking more time than control period: 6.7880153656 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:05,804] --> Follower control law function taking more time than control period: 6.51693344116 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,214] --> Control law function taking more time than control period: 5.39803504944 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,473] --> Follower control law function taking more time than control period: 19.5159912109 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,480] --> Follower control law function taking more time than control period: 5.71513175964 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,538] --> Control law function taking more time than control period: 6.70886039734 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,558] --> Follower control law function taking more time than control period: 13.514995575 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,574] --> Follower control law function taking more time than control period: 5.54299354553 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,597] --> Follower control law function taking more time than control period: 6.17504119873 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,810] --> Follower control law function taking more time than control period: 17.2882080078 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,849] --> Follower control law function taking more time than control period: 14.8899555206 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:06,930] --> Control law function taking more time than control period: 5.17797470093 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,118] --> Follower control law function taking more time than control period: 19.9358463287 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,148] --> Follower control law function taking more time than control period: 6.6499710083 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,178] --> Follower control law function taking more time than control period: 9.86003875732 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,619] --> Follower control law function taking more time than control period: 10.8149051666 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,848] --> Follower control law function taking more time than control period: 10.4651451111 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,948] --> Control law function taking more time than control period: 5.02610206604 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,965] --> Follower control law function taking more time than control period: 6.37698173523 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:07,974] --> Control law function taking more time than control period: 5.67603111267 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,081] --> Follower control law function taking more time than control period: 5.24115562439 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,220] --> Follower control law function taking more time than control period: 7.18903541565 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,597] --> Follower control law function taking more time than control period: 8.37588310242 ms
+[WARNING] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,644] --> Follower control law function taking more time than control period: 10.5998516083 ms
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,741] --> Landing
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,845] --> Error in X: 0.0411481408858
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,845] --> Error in Y: 0.00560138697149
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:08,845] --> Error in Z: 0.0165385821558
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:09,106] --> Qt GUI executed
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:09,239] --> Rospy node closed
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:11,901] --> Data saved
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:14,148] --> Data saved
+[INFO] [SIM_PD_FOLLOWER] [2018-03-14 02:24:14,148] --> Data showed

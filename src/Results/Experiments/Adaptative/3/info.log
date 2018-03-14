@@ -1,0 +1,13 @@
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:18,731] --> ####################################################################################################
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:18,887] --> Rospy node created
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:19,305] --> Test: 3, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:19,305] --> Gains: (0.1, 0.04, 4, 0.15, 0.1, 2, 3), Trajectory: (0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 30.0, 1, 0.0)
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:24,315] --> Qt GUI created
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:24,321] --> Taking Off
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:54,291] --> Problemas con el tiempo: 5.14507293701 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:54,306] --> Problemas con el tiempo: 5.26309013367 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:54,346] --> Problemas con el tiempo: 5.06806373596 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:54,375] --> Qt GUI executed
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:54,998] --> Rospy node closed
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:57,090] --> Data saved
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 09:22:57,091] --> Data showed

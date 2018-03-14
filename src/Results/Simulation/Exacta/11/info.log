@@ -1,0 +1,56 @@
+[INFO] [SIM_EXACTA] [2018-03-13 17:36:55,608] --> ####################################################################################################
+[INFO] [SIM_EXACTA] [2018-03-13 17:36:55,785] --> Rospy node created
+[INFO] [SIM_EXACTA] [2018-03-13 17:36:56,528] --> Simulation: 11, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [SIM_EXACTA] [2018-03-13 17:36:56,528] --> Gains: (2, 2, 2, 4, 2, 2, 2), Trajectory: (0.5, 2.0, 0.5, 2.0, 0.2, 10.0, 1.0, 0.0)
+[INFO] [SIM_EXACTA] [2018-03-13 17:36:56,528] --> Center (0.0, 0.0, 0.8)
+[INFO] [SIM_EXACTA] [2018-03-13 17:36:56,533] --> Qt GUI created
+[INFO] [SIM_EXACTA] [2018-03-13 17:36:56,552] --> Taking off
+[WARNING] [SIM_EXACTA] [2018-03-13 17:36:57,651] --> Control law function taking more time than control period: 14.3558979034 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:36:57,905] --> Control law function taking more time than control period: 6.09493255615 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:36:58,242] --> Control law function taking more time than control period: 7.22098350525 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:36:58,607] --> Control law function taking more time than control period: 6.27994537354 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:36:59,401] --> Control law function taking more time than control period: 5.99503517151 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:36:59,576] --> Control law function taking more time than control period: 5.17201423645 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:00,530] --> Control law function taking more time than control period: 8.01205635071 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:00,630] --> Control law function taking more time than control period: 5.76400756836 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:00,839] --> Control law function taking more time than control period: 7.82704353333 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:01,205] --> Control law function taking more time than control period: 6.40797615051 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:01,324] --> Control law function taking more time than control period: 5.4190158844 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:01,685] --> Control law function taking more time than control period: 5.54800033569 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:01,953] --> Control law function taking more time than control period: 6.90197944641 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:02,011] --> Control law function taking more time than control period: 11.4011764526 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:02,441] --> Control law function taking more time than control period: 5.85985183716 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:02,525] --> Control law function taking more time than control period: 6.77394866943 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:02,591] --> Control law function taking more time than control period: 9.62400436401 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:02,611] --> Control law function taking more time than control period: 10.4010105133 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,152] --> Control law function taking more time than control period: 5.774974823 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,233] --> Control law function taking more time than control period: 5.53894042969 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,367] --> Control law function taking more time than control period: 5.52296638489 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,382] --> Control law function taking more time than control period: 6.75010681152 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,406] --> Control law function taking more time than control period: 12.7069950104 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,421] --> Control law function taking more time than control period: 5.28907775879 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,638] --> Control law function taking more time than control period: 5.38802146912 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,711] --> Control law function taking more time than control period: 8.67486000061 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:04,929] --> Control law function taking more time than control period: 5.28502464294 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:05,121] --> Control law function taking more time than control period: 9.10496711731 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:05,320] --> Control law function taking more time than control period: 7.62820243835 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:06,028] --> Control law function taking more time than control period: 7.25603103638 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:06,209] --> Control law function taking more time than control period: 10.2219581604 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:06,494] --> Control law function taking more time than control period: 6.48880004883 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:06,806] --> Control law function taking more time than control period: 6.08110427856 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:06,855] --> Control law function taking more time than control period: 5.49292564392 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:06,955] --> Control law function taking more time than control period: 7.33089447021 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:07,061] --> Control law function taking more time than control period: 9.76085662842 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:07,087] --> Control law function taking more time than control period: 7.82203674316 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:07,585] --> Control law function taking more time than control period: 5.94997406006 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:07,706] --> Control law function taking more time than control period: 11.5339756012 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:07,804] --> Control law function taking more time than control period: 7.61294364929 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:07,835] --> Control law function taking more time than control period: 20.2329158783 ms
+[WARNING] [SIM_EXACTA] [2018-03-13 17:37:07,855] --> Control law function taking more time than control period: 13.8728618622 ms
+[INFO] [SIM_EXACTA] [2018-03-13 17:37:07,922] --> Landing
+[INFO] [SIM_EXACTA] [2018-03-13 17:37:08,529] --> Error in X: 0.0809753316686
+[INFO] [SIM_EXACTA] [2018-03-13 17:37:08,529] --> Error in Y: 0.160464748246
+[INFO] [SIM_EXACTA] [2018-03-13 17:37:08,530] --> Error in Z: 0.0618628567096
+[INFO] [SIM_EXACTA] [2018-03-13 17:37:08,843] --> Qt GUI executed
+[INFO] [SIM_EXACTA] [2018-03-13 17:37:09,002] --> Rospy node closed
+[INFO] [SIM_EXACTA] [2018-03-13 17:37:11,863] --> Data saved

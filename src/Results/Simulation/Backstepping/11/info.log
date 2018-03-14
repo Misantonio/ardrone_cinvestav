@@ -1,0 +1,47 @@
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:12:55,591] --> ####################################################################################################
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:12:55,769] --> Rospy node created
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:12:56,510] --> Simulation: 11, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:12:56,510] --> Gains: (1, 3, 3, 1, 3, 3, 3), Trajectory: (0.5, 2.0, 0.5, 2.0, 0.2, 10.0, 1.0, 0.0)
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:12:56,510] --> Center (-0.6, 0.2, 0.8)
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:12:56,514] --> Qt GUI created
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:12:56,531] --> Taking Off
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:57,626] --> Control law function taking more time than control period: 7.20620155334 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:58,289] --> Control law function taking more time than control period: 7.2329044342 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:58,337] --> Control law function taking more time than control period: 12.2010707855 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:58,378] --> Control law function taking more time than control period: 11.2409591675 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:58,407] --> Control law function taking more time than control period: 16.7841911316 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:58,474] --> Control law function taking more time than control period: 6.24179840088 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:58,701] --> Control law function taking more time than control period: 5.9220790863 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:58,783] --> Control law function taking more time than control period: 6.06918334961 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:12:59,003] --> Control law function taking more time than control period: 5.1441192627 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:01,204] --> Control law function taking more time than control period: 5.96904754639 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:01,813] --> Control law function taking more time than control period: 5.78784942627 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:01,913] --> Control law function taking more time than control period: 5.86605072021 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:01,938] --> Control law function taking more time than control period: 10.9288692474 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:02,510] --> Control law function taking more time than control period: 7.9288482666 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:02,717] --> Control law function taking more time than control period: 5.11908531189 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:03,096] --> Control law function taking more time than control period: 5.6369304657 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:03,579] --> Control law function taking more time than control period: 6.63900375366 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:04,798] --> Control law function taking more time than control period: 8.02707672119 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:04,859] --> Control law function taking more time than control period: 5.13100624084 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:05,207] --> Control law function taking more time than control period: 5.7590007782 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:05,331] --> Control law function taking more time than control period: 7.0481300354 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:05,558] --> Control law function taking more time than control period: 6.88219070435 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:05,822] --> Control law function taking more time than control period: 6.35290145874 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:05,901] --> Control law function taking more time than control period: 9.69910621643 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:05,960] --> Control law function taking more time than control period: 5.23090362549 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:06,038] --> Control law function taking more time than control period: 5.80501556396 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:06,074] --> Control law function taking more time than control period: 5.03897666931 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:06,881] --> Control law function taking more time than control period: 6.52885437012 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:06,897] --> Control law function taking more time than control period: 5.53584098816 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:06,983] --> Control law function taking more time than control period: 6.99496269226 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:07,305] --> Control law function taking more time than control period: 5.9871673584 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:07,626] --> Control law function taking more time than control period: 7.12299346924 ms
+[WARNING] [SIM_BACKSTEPPING] [2018-03-13 17:13:07,666] --> Control law function taking more time than control period: 5.75804710388 ms
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:13:07,945] --> Landing
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:13:08,553] --> Error in X: 0.0915280638756
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:13:08,553] --> Error in Y: 0.0276851674105
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:13:08,553] --> Error in Z: 0.0614518143875
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:13:08,764] --> Qt GUI executed
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:13:08,891] --> Rospy node closed
+[INFO] [SIM_BACKSTEPPING] [2018-03-13 17:13:11,646] --> Data saved

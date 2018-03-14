@@ -1,0 +1,11 @@
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:52,248] --> ####################################################################################################
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:52,402] --> Rospy node created
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:52,788] --> Simulation: 12, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:52,788] --> Gains: (4, 2, 1, 8, 6, 4, 3), Trajectory: (0.5, 2.0, 0.5, 2.0, 0.2, 120.0, 1.0, 0.0)
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:52,788] --> Center (0.0, 0.0, 0.8)
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:52,792] --> Qt GUI created
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:52,810] --> Taking Off
+[WARNING] [SIM_ADAPTATIVE] [2018-03-13 21:31:54,964] --> Control law function taking more time than control period: 6.4480304718 ms
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:55,027] --> Qt GUI executed
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:55,196] --> Rospy node closed
+[INFO] [SIM_ADAPTATIVE] [2018-03-13 21:31:56,963] --> Data saved

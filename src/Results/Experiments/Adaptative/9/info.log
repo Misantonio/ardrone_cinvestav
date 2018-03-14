@@ -1,0 +1,29 @@
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:22,043] --> ####################################################################################################
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:22,209] --> Rospy node created
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:22,653] --> Test: 9, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:22,654] --> Gains: (0.2, 0.1, 5, 0.1, 0.1, 2, 3), Trajectory: (1, 2.0, 0.6, 4.0, 0.2, 1.0, 90, 1, 0.0)
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:27,662] --> Qt GUI created
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:27,667] --> Taking Off
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:33,947] --> Problemas con el tiempo: 5.11789321899 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:36,298] --> Problemas con el tiempo: 5.78904151917 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:45,447] --> Problemas con el tiempo: 5.38396835327 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:50,447] --> Problemas con el tiempo: 5.64384460449 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:04:57,851] --> Problemas con el tiempo: 8.46910476685 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:04,283] --> Problemas con el tiempo: 6.21390342712 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:08,947] --> Problemas con el tiempo: 5.68795204163 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:23,798] --> Problemas con el tiempo: 6.15310668945 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:30,547] --> Problemas con el tiempo: 5.29289245605 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:39,932] --> Problemas con el tiempo: 5.04398345947 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:42,049] --> Problemas con el tiempo: 7.32398033142 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:48,399] --> Problemas con el tiempo: 7.33208656311 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:49,199] --> Problemas con el tiempo: 7.05099105835 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:52,298] --> Problemas con el tiempo: 6.50715827942 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:05:53,647] --> Problemas con el tiempo: 5.13100624084 milisegundos
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:02,676] --> Landing
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:03,791] --> Error en X: 0.219281469294
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:03,791] --> Error en Y: 0.157161370909
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:03,791] --> Error en Z: 0.0923841987737
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:03,890] --> Qt GUI executed
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:04,516] --> Rospy node closed
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:07,387] --> Data saved
+[INFO] [REAL_ADAPTATIVE] [2018-03-05 10:06:07,388] --> Data showed
