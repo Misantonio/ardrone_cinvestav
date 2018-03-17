@@ -24,7 +24,7 @@ import PySide
 from pyqtgraph import QtGui,QtCore
 
 class Discontinuo(Controller):
-    def __init__(self,model, num_widgets, rows, cols, titulos):
+    def __init__(self, model, num_widgets, rows, cols, titulos):
         super(Discontinuo,self).__init__(model, num_widgets, rows, cols,
                                          titulos)
 
@@ -86,8 +86,8 @@ class Discontinuo(Controller):
                                                 self.Lxi3,
                                                 self.kpa),
                                                (self.A, self.B, self.C, self.D,
-                                                self.E, self.alt_0, self.T,
-                                                self.repeat, self.psid)))
+                                                self.E, self.T, self.repeat,
+                                                self.psid)))
         logger.info('Center {}'.format((self.x0, self.y0, self.z0)))
 
         time.sleep(5)  # wait for the connection to stablish
@@ -147,7 +147,7 @@ class Discontinuo(Controller):
             # Yaw velocity control signal
             self.yaw_velocity = -self.kpa * (self.rotationZ - self.psid)
 
-            self.SetCommand(-self.roll, self.pitch, self.yaw_velocity,
+            self.SetCommand(self.roll, self.pitch, self.yaw_velocity,
                             self.z_velocity)
 
             # Derivative of desired angles
@@ -163,6 +163,8 @@ class Discontinuo(Controller):
             self.vz = filter_FIR(0.0005, self.hist_vz, self.vz)
             self.vyaw = deriv(self.rotationZ, self.p_rotationZ, self.h)
             self.vyaw = filter_FIR(0.0005, self.hist_vyaw, self.vyaw)
+
+            super(Discontinuo, self).appendData(self)
 
             k = (time.time()-prev)*1000
             if k > self.control_period:

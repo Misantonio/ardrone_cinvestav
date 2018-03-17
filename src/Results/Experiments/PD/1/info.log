@@ -1,0 +1,15 @@
+[INFO] [REAL_PD] [2018-03-16 10:54:12,867] --> ####################################################################################################
+[INFO] [REAL_PD] [2018-03-16 10:54:13,022] --> Rospy node created
+[INFO] [REAL_PD] [2018-03-16 10:54:13,361] --> Simulation: 1, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [REAL_PD] [2018-03-16 10:54:13,361] --> Gains: (0.5, 0.7, 0.5, 0.5, 2, 3), Trajectory: (0.0, 0.0, 0.0, 0.0, 0.0, 60.0, 1.0, 0.0)
+[INFO] [REAL_PD] [2018-03-16 10:54:13,361] --> Center (-0.6, 0.2, 0.8)
+[INFO] [REAL_PD] [2018-03-16 10:54:18,370] --> Qt GUI created
+[INFO] [REAL_PD] [2018-03-16 10:54:18,383] --> Taking Off
+[INFO] [REAL_PD] [2018-03-16 10:54:26,712] --> Emergency Stop
+[INFO] [REAL_PD] [2018-03-16 10:54:26,813] --> Error in X: nan
+[INFO] [REAL_PD] [2018-03-16 10:54:26,813] --> Error in Y: nan
+[INFO] [REAL_PD] [2018-03-16 10:54:26,813] --> Error in Z: nan
+[INFO] [REAL_PD] [2018-03-16 10:54:27,882] --> Qt GUI executed
+[INFO] [REAL_PD] [2018-03-16 10:54:28,502] --> Rospy node closed
+[INFO] [REAL_PD] [2018-03-16 10:54:30,208] --> Data saved
+[INFO] [REAL_PD] [2018-03-16 10:54:30,208] --> Data showed

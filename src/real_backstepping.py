@@ -24,31 +24,31 @@ import PySide
 from pyqtgraph import QtGui,QtCore
 
 class Backstepping(Controller):
-    def __init__(self,num_widgets,rows,cols,titulos):
-        super(Controller,self).__init__(num_widgets,rows,cols,titulos)
+    def __init__(self,model, num_widgets,rows,cols,titulos):
+        super(Backstepping,self).__init__(model, num_widgets,rows,cols,titulos)
 
         self.control_period = 5.
         self.maxlen = 500.
-        self.visualize = True
+        self.visualize = False
         self.path = path
 
         # Gains
         self.kd1 = 1
         self.kd2 = 2
-        self.kd3 = 3
+        self.kd3 = 2
         self.kp1 = .2
         self.kp2 = .5
         self.kp3 = 2
         self.kpa = 3
 
         # Trajectory
-        # # Point
-        # self.A = 0.
-        # self.B = 0.
-        # self.C = 0.
-        # self.D = 0.
-        # self.E = 0.
-        # self.T = 20.
+        # Point
+        self.A = 0.
+        self.B = 0.
+        self.C = 0.
+        self.D = 0.
+        self.E = 0.
+        self.T = 20.
 
         # # Lemniscate
         # self.A = 0.5
@@ -58,21 +58,21 @@ class Backstepping(Controller):
         # self.E = 0.2
         # self.T = 120.
 
-        # Oval
-        self.A = 0.5
-        self.B = 2.
-        self.C = 0.5
-        self.D = 2.
-        self.E = 0.2
-        self.T = 10.
+        # # Oval
+        # self.A = 0.5
+        # self.B = 2.
+        # self.C = 0.5
+        # self.D = 2.
+        # self.E = 0.2
+        # self.T = 10.
 
         self.repeat = 1.
         self.psid = degtorad(0)
 
         # Center of the trajectory
-        self.x0 = -0.6
-        self.y0 = 0.2
-        self.z0 = 0.8
+        self.x0 = 0.
+        self.y0 = 0.
+        self.z0 = 1
 
         logger.info('Simulation: {}, Control Period: {} ms, '
                     'Maximum tilt: {} deg'.format(sim_num, self.control_period,
@@ -82,8 +82,8 @@ class Backstepping(Controller):
                                                 self.kp1, self.kp2, self.kp3,
                                                 self.kpa),
                                                (self.A, self.B, self.C, self.D,
-                                                self.E, self.alt_0, self.T,
-                                                self.repeat, self.psid)))
+                                                self.E, self.T, self.repeat,
+                                                self.psid)))
         logger.info('Center {}'.format((self.x0, self.y0, self.z0)))
 
         time.sleep(5)  # Wait for the connection to stablish
@@ -102,11 +102,16 @@ class Backstepping(Controller):
             m = .42
 
             # Control
-            u1 = self.mxpp(self.t)+self.kd1*(self.mxp(self.t)-self.vx)+self.kp1*(self.mx(self.t)-self.xPos)
-            u2 = self.mypp(self.t)+self.kd2*(self.myp(self.t)-self.vy)+self.kp2*(self.my(self.t)-self.yPos)
-            u3 = self.mzpp(self.t)+self.kd3*(self.mzp(self.t)-self.vz)+self.kp3*(self.mz(self.t)-self.zPos)
-            T = m*(u1*(sin(self.rotationY)*cos(self.rotationZ)*cos(self.rotationX)+sin(self.rotationZ)*sin(self.rotationX))
-                   +u2*(sin(self.rotationY)*sin(self.rotationZ)*cos(self.rotationX)-cos(self.psid)*sin(self.rotationX))
+            u1 = self.mxpp(self.t)+self.kd1*(self.mxp(self.t)-self.vx)\
+                 +self.kp1*(self.mx(self.t)-self.xPos)
+            u2 = self.mypp(self.t)+self.kd2*(self.myp(self.t)-self.vy)\
+                 +self.kp2*(self.my(self.t)-self.yPos)
+            u3 = self.mzpp(self.t)+self.kd3*(self.mzp(self.t)-self.vz)\
+                 +self.kp3*(self.mz(self.t)-self.zPos)
+            T = m*(u1*(sin(self.rotationY)*cos(self.rotationZ)*cos(self.rotationX)
+                       +sin(self.rotationZ)*sin(self.rotationX))
+                   +u2*(sin(self.rotationY)*sin(self.rotationZ)*cos(self.rotationX)
+                        -cos(self.psid)*sin(self.rotationX))
                    +(u3+g)*cos(self.rotationY)*cos(self.rotationX))
 
             # Desired Angles
@@ -136,7 +141,7 @@ class Backstepping(Controller):
             # Yaw Velocity control signal
             self.yaw_velocity = -self.kpa*(self.rotationZ-self.psid)
 
-            self.SetCommand(self.roll, self.pitch,self.yaw_velocity,
+            self.SetCommand(self.roll, self.pitch, self.yaw_velocity,
                                   self.z_velocity)
 
             # Derivative of desired angles
@@ -153,7 +158,7 @@ class Backstepping(Controller):
             self.vyaw = deriv(self.rotationZ, self.p_rotationZ, self.h)
             self.vyaw = filter_FIR(0.0005, self.hist_vyaw, self.vyaw)
 
-            super(Backstepping, self).leyControl(self)
+            super(Backstepping, self).appendData(self)
 
             k = (time.time()-prev)*1000
             if k > self.control_period:

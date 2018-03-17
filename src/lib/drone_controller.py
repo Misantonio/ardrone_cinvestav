@@ -53,10 +53,10 @@ class BasicDroneController(object):
         # Allow the controller to publish to the /cmd_vel topic and thus
         # control the drone
         # Uncomment for simulation
-        self.pubCommand = rospy.Publisher('/'+model+'/cmd_vel', Twist,
-                                          queue_size=10)
+        # self.pubCommand = rospy.Publisher('/'+model+'/cmd_vel', Twist,
+        #                                   queue_size=10)
         # Uncomment for real testing
-        # self.pubCommand = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+        self.pubCommand = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
 
         # Setup regular publishing of control packets
         self.command = Twist()

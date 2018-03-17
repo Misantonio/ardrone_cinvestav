@@ -43,13 +43,13 @@ class Adaptative(Controller):
         self.kpa = 3
 
         # Trajectory
-        # # Point
-        # self.A = 0.
-        # self.B = 0.
-        # self.C = 0.
-        # self.D = 0.
-        # self.E = 0.
-        # self.T = 20.
+        # Point
+        self.A = 0.
+        self.B = 0.
+        self.C = 0.
+        self.D = 0.
+        self.E = 0.
+        self.T = 20.
 
         # # Lemniscate
         # self.A = 0.5
@@ -59,13 +59,13 @@ class Adaptative(Controller):
         # self.E = 0.2
         # self.T = 120.
 
-        # Oval
-        self.A = 0.5
-        self.B = 2.
-        self.C = 0.5
-        self.D = 2.
-        self.E = 0.2
-        self.T = 6.
+        # # Oval
+        # self.A = 0.5
+        # self.B = 2.
+        # self.C = 0.5
+        # self.D = 2.
+        # self.E = 0.2
+        # self.T = 6.
 
         self.repeat = 1.
         self.psid = degtorad(0)
@@ -96,7 +96,7 @@ class Adaptative(Controller):
                                            self.ReceiveNavdata)
 
     def leyControl(self,_):
-        if self.comienzo and self.t < self.repeat*self.T:
+        if self.start and self.t < self.repeat*self.T:
             prev = time.time()
             self.t += self.h
 
@@ -119,9 +119,9 @@ class Adaptative(Controller):
 
             # Attitude Control
             if abs(uy / F) < 1 and abs(uy / F) > -1:
-                self.phid = -asin(uy / F)  # roll deseado (x)
+                self.phid = asin(uy / F)  # roll deseado (x)
             else:
-                self.phid = -asin(copysign(1.0, uy / F))
+                self.phid = asin(copysign(1.0, uy / F))
                 logger.warning('uy/F off asin limits: {}'.format(uy / F))
                 rospy.logwarn('uy/F off asin limits')
             self.thetad = atan(ux / (uz + g))  # pitch deseado (y)
@@ -144,7 +144,7 @@ class Adaptative(Controller):
             # Yaw velocity control signal
             self.yaw_velocity = -self.kpa * (self.rotationZ - self.psid)
 
-            controller.SetCommand(self.roll,self.pitch, self.yaw_velocity,
+            self.SetCommand(self.roll,self.pitch, self.yaw_velocity,
                                   self.z_velocity)
 
             # Derivative of desired angles
@@ -155,7 +155,7 @@ class Adaptative(Controller):
             self.phip = deriv(self.rotationX, self.p_rotationX, self.h)
             self.thetap = deriv(self.rotationY, self.p_rotationY, self.h)
 
-            super(Adaptative, self).leyControl(self)
+            super(Adaptative, self).appendData(self)
 
             k = (time.time()-prev)*1000
             if k > self.control_period:
@@ -167,7 +167,7 @@ class Adaptative(Controller):
                 rospy.logwarn('taking Off')
                 logger.info('Taking Off')
                 time.sleep(5)
-                controller.SendTakeoff()
+                self.SendTakeoff()
                 self.start = True
             else:
                 logger.info('Landing')
@@ -181,7 +181,7 @@ class Adaptative(Controller):
         self.yPos = pos_data.data[1]
         self.zPos = pos_data.data[2]
         self.rotationZ = pos_data.data[3]
-        self.rotationX = pos_data.data[4] #-
+        self.rotationX = pos_data.data[4]
         self.rotationY = pos_data.data[5]
 
     def ReceiveNavdata(self, navdata):

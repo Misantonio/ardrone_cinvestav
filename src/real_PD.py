@@ -27,23 +27,28 @@ class PD(Controller):
     def __init__(self,model, num_widgets, rows, cols, titulos):
         super(PD,self).__init__(model, num_widgets, rows, cols, titulos)
 
+        self.control_period = 5.
+        self.maxlen = 500.
+        self.visualize = False
+        self.path = path
+
         # Gains
-        self.kdx = .3
-        self.kdy = .3
+        self.kdx = .5
+        self.kdy = 2
         self.kdz = 2
-        self.kpx = 1.5
-        self.kpy = 3
-        self.kpz = 2
+        self.kpx = .5
+        self.kpy = .5
+        self.kpz = .6
         self.kpa = 3
 
         # Trajectory
-        # # Point
-        # self.A = 0.
-        # self.B = 0.
-        # self.C = 0.
-        # self.D = 0.
-        # self.E = 0.
-        # self.T = 20.
+        # Point
+        self.A = 0.
+        self.B = 0.
+        self.C = 0.
+        self.D = 0.
+        self.E = 0.
+        self.T = 30.
 
         # # Lemniscate
         # self.A = 0.5
@@ -53,18 +58,20 @@ class PD(Controller):
         # self.E = 0.2
         # self.T = 120.
 
-        # Oval
-        self.A = 0.5
-        self.B = 2.
-        self.C = 0.5
-        self.D = 2.
-        self.E = 0.2
-        self.T = 30.
+        # # Oval
+        # self.A = 0.5
+        # self.B = 2.
+        # self.C = 0.5
+        # self.D = 2.
+        # self.E = 0.2
+        # self.T = 30.
 
         self.repeat = 1.
         self.psid = degtorad(0)
 
         # Center of the trajectory
+        self.x0 = -0.6
+        self.y0 = 0.2
         self.z0 = 0.8
 
         logger.info('Simulation: {}, Control Period: {} ms, '
@@ -74,8 +81,8 @@ class PD(Controller):
             'Gains: {}, Trajectory: {}'.format((self.kdx, self.kdy, self.kpx,
                                                 self.kpy, self.kpz, self.kpa),
                                                (self.A, self.B, self.C, self.D,
-                                                self.E, self.alt_0, self.T,
-                                                self.repeat, self.psid)))
+                                                self.E, self.T, self.repeat,
+                                                self.psid)))
         logger.info('Center {}'.format((self.x0, self.y0, self.z0)))
 
         time.sleep(5)  # Wait for the communication to stablish
@@ -85,6 +92,13 @@ class PD(Controller):
                                             self.ReceivePosition)
         self.subNavdata = rospy.Subscriber('/ardrone/navdata', Navdata,
                                            self.ReceiveNavdata)
+
+    def rx(self,x,xp,tp):
+        return self.mxpp(tp)-self.kdx*(xp-self.mxp(tp))-self.kpx*(x-self.mx(tp))
+
+    def ry(self,y,yp,tp):
+        return self.mypp(tp)-self.kdy*(yp-self.myp(tp))-self.kpy*(y-self.my(tp))
+
 
     def leyControl(self,_):
         if self.start and self.t < self.repeat*self.T:
@@ -132,8 +146,10 @@ class PD(Controller):
             # Yaw velocity control signal
             self.yaw_velocity = -self.kpa * (self.rotationZ - self.psid)
 
-            self.SetCommand(-self.roll, self.pitch, -self.yaw_velocity,
+            self.SetCommand(self.roll, self.pitch, self.yaw_velocity,
                                   self.z_velocity)
+
+            super(PD, self).appendData(self)
 
             k = (time.time()-prev)*1000
             if k > self.control_period:
@@ -221,5 +237,5 @@ if __name__=='__main__':
     # and only progresses to here once the application has been shutdown
     rospy.signal_shutdown('Great Flying!')
     logger.info('Rospy node closed')
-    controller.graficar(show=False)
+    controller.graficar(show=True)
     sys.exit(status)

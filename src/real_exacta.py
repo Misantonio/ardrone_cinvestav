@@ -28,6 +28,10 @@ class Exacta(Controller):
         super(Exacta,self).__init__(model, num_widgets, rows, cols,
                                     titulos)
 
+        self.control_period = 5.
+        self.path = path
+        self.maxlen = 500
+
         # Gains
         self.kx1 = .5
         self.kx2 = .5
@@ -77,8 +81,8 @@ class Exacta(Controller):
                                                 self.kz1, self.kz2,
                                                 self.kpa),
                                                (self.A, self.B, self.C, self.D,
-                                                self.E, self.alt_0, self.T,
-                                                self.repeat, self.psid)))
+                                                self.E, self.T, self.repeat,
+                                                self.psid)))
         logger.info('Center {}'.format((self.x0, self.y0, self.z0)))
 
         time.sleep(5)  # Wait for the communication to stablish
@@ -134,8 +138,8 @@ class Exacta(Controller):
             self.thetadp = deriv(self.thetad, self.p_thetad, self.h)
 
             # Derivative of drone angles
-            phip = deriv(self.rotationX, self.p_rotationX, self.h)
-            thetap = deriv(self.rotationY, self.p_rotationY, self.h)
+            self.phip = deriv(self.rotationX, self.p_rotationX, self.h)
+            self.thetap = deriv(self.rotationY, self.p_rotationY, self.h)
 
             # Low Pass Filter
             self.vz = deriv(self.zPos, self.p_zPos, self.h)

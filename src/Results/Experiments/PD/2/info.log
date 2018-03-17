@@ -1,0 +1,13 @@
+[INFO] [REAL_PD] [2018-03-16 10:55:10,729] --> ####################################################################################################
+[INFO] [REAL_PD] [2018-03-16 10:55:10,881] --> Rospy node created
+[INFO] [REAL_PD] [2018-03-16 10:55:11,212] --> Simulation: 2, Control Period: 5.0 ms, Maximum tilt: 5.73 deg
+[INFO] [REAL_PD] [2018-03-16 10:55:11,212] --> Gains: (0.5, 0.7, 0.5, 0.5, 2, 3), Trajectory: (0.0, 0.0, 0.0, 0.0, 0.0, 60.0, 1.0, 0.0)
+[INFO] [REAL_PD] [2018-03-16 10:55:11,212] --> Center (-0.6, 0.2, 0.8)
+[INFO] [REAL_PD] [2018-03-16 10:55:16,217] --> Qt GUI created
+[INFO] [REAL_PD] [2018-03-16 10:55:16,237] --> Taking Off
+[WARNING] [REAL_PD] [2018-03-16 10:55:30,313] --> Control law function taking more time than control period: 6.11090660095 ms
+[WARNING] [REAL_PD] [2018-03-16 10:55:30,349] --> Control law function taking more time than control period: 10.3080272675 ms
+[INFO] [REAL_PD] [2018-03-16 10:55:30,355] --> Qt GUI executed
+[INFO] [REAL_PD] [2018-03-16 10:55:30,527] --> Rospy node closed
+[INFO] [REAL_PD] [2018-03-16 10:55:32,438] --> Data saved
+[INFO] [REAL_PD] [2018-03-16 10:55:32,438] --> Data showed
