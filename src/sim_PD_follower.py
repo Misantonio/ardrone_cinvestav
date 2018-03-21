@@ -317,7 +317,7 @@ if __name__=='__main__':
 
     # Create Folder
     rospack = rospkg.RosPack()
-    pkg_path = rospack.get_path('drone_cinvestav')
+    pkg_path = rospack.get_path('ardrone_cinvestav')
     res_path = '/src/Results/Simulation/'
     exp_path = 'Follower_PD/'
     folder_path = str(sim_num)
